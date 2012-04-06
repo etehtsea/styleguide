@@ -179,3 +179,5 @@ when you contribute to my code, please follow these rules:
 * Be consistent.
 
 * Use common sense.
+
+* Don't commit commented code (I don't mean documentation here)
