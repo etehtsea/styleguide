@@ -86,20 +86,20 @@ if v = array.grep(/foo/) ...
   variables for short block/method parameters, according to this
   scheme:
 
-    a,b,c: any object
-    d: directory names
-    e: elements of an Enumerable
-    ex: rescued exceptions
-    f: files and file names
-    i,j: indexes
-    k: the key part of a hash entry
-    m: methods
-    o: any object
-    r: return values of short methods
-    s: strings
-    v: any value
-    v: the value part of a hash entry
-    x,y,z: numbers
+    - a,b,c: any object
+    - d: directory names
+    - e: elements of an Enumerable
+    - ex: rescued exceptions
+    - f: files and file names
+    - i,j: indexes
+    - k: the key part of a hash entry
+    - m: methods
+    - o: any object
+    - r: return values of short methods
+    - s: strings
+    - v: any value
+    - v: the value part of a hash entry
+    - x,y,z: numbers
 
   And in general, the first letter of the class name if all objects
   are of that type.
@@ -156,7 +156,7 @@ if v = array.grep(/foo/) ...
 * Do not mess around in core classes when writing libraries.
 
 * Do not program defensively.
-  (See http://www.erlang.se/doc/programming_rules.shtml#HDR11.)
+  (See http://www.erlang.se/doc/programming_rules.shtml#HDR11)
 
 * Keep the code simple.
 
